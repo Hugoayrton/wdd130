@@ -1,3 +1,20 @@
+:root {
+
+  --main-max-widht: 840px;
+  --main-margin: 0 auto;
+
+  --nav-background-color:darkblue;
+  --nav-padding: 10px;
+  --nav-color:white;
+  --nav-link-padding: 20px;
+
+
+  --footer-margen: 15px;
+  --footer-borde: #555;
+  --footer-padding: 5px;
+}
+
+
 main {
   max-width: 840px; 
   margin: 0 auto;
@@ -20,14 +37,14 @@ aside img {
 
 
 nav {
-    background-color: darkblue;  
-    padding: 10px; 
+    background-color: var(--nav-background-color);
+    padding: var(--nav-padding);
     
 }
 nav a {
-    color: white;  
+    color:var(--nav-color);
     display: block;  
-    padding: 20px;  
+    padding:var(--nav-link-padding);
   }
   
   
@@ -47,12 +64,13 @@ nav a {
   p {
     padding: 10px;  
   }
-  
-footer {
-  margin-top: 15px;
-  border-top: 1px solid #000;
-  text-align: center;
-}
+  footer {
+    margin-top: var(--footer-margen);
+    border-top: 1px solid var(--footer-borde);
+    padding-top: var(--footer-padding);
+    text-align: center;
+  }
+
 .note {
   font-style: italic;
   font-weight: bold;
@@ -82,10 +100,3 @@ p {
 	box-shadow: 0 0 30px #777;
 }
 
-footer {
-	border-top: 1px solid #555;
-	padding-top: 5px;
-	/* Remove the comment below and observe the results. */
-	
-  /* clear: both; */
-}
