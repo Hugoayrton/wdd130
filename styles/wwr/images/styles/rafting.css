@@ -4,7 +4,7 @@
     --color-fondo: #f5f5f5; 
     --color-texto: #333333; 
     --color-enlace: #0066cc; 
-    --color-fondo-hero: rgba(0, 75, 35, 0.7); /
+    --color-fondo-hero: rgba(0, 75, 35, 0.7); 
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -60,7 +60,7 @@ p {
 .hero article {
     bottom: 20px;
     left: 20px;
-    background-color: var(--color-fondo-hero); /
+    background-color: var(--color-fondo-hero); 
     padding: 10px;
     border-radius: 5px;
 }
