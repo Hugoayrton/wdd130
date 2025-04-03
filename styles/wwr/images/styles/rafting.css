@@ -31,7 +31,7 @@ aside{
     position: absolute;
     top: 15%;
     left: 35%;
-    color: var(--secundarycolor);
+    color: var(--fontprimary);
     font-size: 2rem;
     z-index:10 ;
 }
@@ -42,4 +42,10 @@ p1{
     color: var(--fontprimary);
     font-size: 2rem;
     background-color: #AFC2D5;
+}
+h1{
+    font-family: "Merriweather", serif;
+}
+p{
+    font-family: "Roboto", sans-serif;
 }
