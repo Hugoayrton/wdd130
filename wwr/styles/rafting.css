@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #AFC2D5;
+}
 :root{
     --primarycolor:#AFC2D5; 
     --secundarycolor:#31495E;
@@ -11,10 +13,10 @@
     --fontsecundary:#B6CEBC;
 }
 h2{
-    color:var(--primarycolor)
+    color:var(--fontprimary)
 }
 p{
-    color: #B6CEBC;
+    color:var(--fontprimary)
 }
 
 aside{
@@ -43,11 +45,31 @@ p1{
     left: 15%;
     color: var(--fontprimary);
     font-size: 2rem;
-    background-color: #AFC2D5;
+    background-color: var(--secundarycolor);
 }
 h1{
     font-family: "Merriweather", serif;
 }
 p{
     font-family: "Roboto", sans-serif;
+}
+header {
+	
+	display: grid;
+	grid-template-columns:200px    1fr auto;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	 padding: 20px;
+    background-color: var(--secundarycolor);
+}
+
+
+
+.box a{
+    display: block;
+	color: var(--fontprimary);
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.2rem;
+    font-family: "Merriweather", serif;
 }
