@@ -47,7 +47,7 @@ p.special-paragraph{
     font-size: 2rem;
     background-color: var(--secundarycolor);
 }
-h1{
+h1,h2,h3 {
     font-family: "Merriweather", serif;
 }
 p{
