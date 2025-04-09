@@ -96,6 +96,27 @@ aside{
     padding-right: 10px;
     text-align: justify;
     max-width: 700px;
+    background-color: #31495E;
+}
+section {
+    margin: 2em auto;
+	border: 2px solid rgb(0 0 0 / 0.1);
+	padding: 1em;
+	background-color: var(--fontsecundary);
+	width: min(1300px, 1500%);
+	font-size: 1.2rem;
+    
+}
+.history-company {
+    background-color: var(--fontsecundary);  
+    text-align: center;        
+}
+
+.history-company p{
+    background-color: #31495E;
+  padding: 10px;
+   
+   
 }
 
 
