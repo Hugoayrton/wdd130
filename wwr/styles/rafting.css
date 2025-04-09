@@ -19,34 +19,7 @@ p{
     color:var(--fontprimary)
 }
 
-aside{
-    position: relative;
-}
-.aside img {
-    display: block;
-    width: 70%;
-    height: auto;
-    margin-left: auto;       
-    margin-right: auto;
-    
-  }
 
-.aside h1{
-    position: absolute;
-    top: 15%;
-    left: 35%;
-    color: var(--fontprimary);
-    font-size: 2rem;
-    z-index:10 ;
-}
-p.special-paragraph{
-    position: absolute;
-    top: 70%;
-    left: 15%;
-    color: var(--fontprimary);
-    font-size: 2rem;
-    background-color: var(--secundarycolor);
-}
 h1,h2,h3 {
     font-family: "Merriweather", serif;
 }
@@ -54,25 +27,79 @@ p{
     font-family: "Roboto", sans-serif;
 }
 header {
-	
-	display: grid;
-	grid-template-columns:200px    1fr auto;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	 padding: 20px;
-    background-color: var(--secundarycolor);
+    display: grid;
+    grid-template-columns: auto 1fr auto; 
+    align-items: center; 
+    padding: 1rem; 
+    background-color: var(--secundarycolor); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
-
-
-
-.box a{
-    display: block;
-	color: var(--fontprimary);
-	padding: 20px;
-	text-decoration: none;
-	font-size: 1.2rem;
+header img {
+    max-height: 350px; 
+    margin-right: 30rem; 
+    margin-left: 15%;
+}
+.box a {
     font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: var(--fontprimary); 
 }
+.box{
+    display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+}
+.box li{
+    flex: 1 1 auto;
+}
+
+.aside{
+    margin: 2em auto;
+	border: 2px solid rgb(0 0 0 / 0.1);
+	padding: 1em;
+	background-color: var(--fontsecundary);
+	width: min(1300px, 1500%);
+	font-size: 1.2rem;
+    
+}
+
+
+aside{
+    position: relative;
+}
+.aside img {
+    max-width: 300px;
+    margin-left: 70%;
+    top: -150px; 
+    position: relative;  
+    
+  }
+
+.aside h1{
+    color: var(--fontprimary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    line-height: 300px;
+    height: 300px;
+    margin-top: -10%;
+    
+}
+
+.aside p{
+    line-height: 1.5;
+    padding-right: 10px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+
 footer {
     margin-top: auto;
 }
+
