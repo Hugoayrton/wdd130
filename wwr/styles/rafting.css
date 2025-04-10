@@ -144,6 +144,19 @@ figure img{
     object-fit: cover;
 }
 footer {
-    margin-top: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--secundarycolor);
 }
 
+.sociallinks img{
+    width: 30px;
+    height: 30px;
+ gap: 15px;
+}
+p{
+    text-align: center;
+}
