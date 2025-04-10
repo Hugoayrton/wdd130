@@ -145,7 +145,7 @@ figure img{
 }
 footer {
     
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -156,6 +156,12 @@ footer {
     width: 30px;
     height: 30px;
  gap: 15px;
+}
+.sociallinks{
+    display: flex;        /* Alinea los íconos de forma horizontal */
+    gap: 15px; 
+    flex-grow: 1;  
+    justify-content: flex-end;         
 }
 p{
     text-align: center;
