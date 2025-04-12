@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>wwd130 html form-user form</title>
 </head>
 <header>
@@ -13,21 +18,27 @@
         <form>
             <fieldset>
                 <legend>contact information</legend>
-                <label for="name">name:</label><br>
-                <input type="text" id="name" value="name"><br>
-                <label for="useremail">email</label><br>
-                <input type="text" id="useremail" value="useremail">
+                <div class="form-item column2">
+                    <label for="name">name:</label><br>
+                     <input type="text" id="name" value="name"><br>
+                </div>
+                <div class="fort-item column2">
+                    <label for="useremail">email</label><br>
+                    <input type="text" id="useremail" value="useremail">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>questions</legend>
-                <label for="browser">What is your favorite browser?</label>
-                <select id="browser" name="browser">
-                <option value="chrome">chrome</option>
-                <option value="opera">opera</option>
-                <option value="safari">safari</option>
-                <option value="mozilla">mozilla</option>
-                <option value="explorer">explorer</option>
-                </select>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">chrome</option>
+                        <option value="opera">opera</option>
+                        <option value="safari">safari</option>
+                        <option value="mozilla">mozilla</option>
+                        <option value="explorer">explorer</option>
+                    </select>
+                </div>
                 <label for="pet">Do you have a household pet?</label><br>
                 <input type="checkbox"  id="pet" name="pet"><br>
                 <select name="pet" id="pet"></select><br>
