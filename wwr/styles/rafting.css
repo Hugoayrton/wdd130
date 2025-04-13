@@ -184,3 +184,29 @@ footer {
 p{
     text-align: center;
 }
+
+.team{
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: flex-start; /* alinea la parte superior de cada figura */
+    gap: 20px; /* espacio entre imágenes */
+    flex-wrap: wrap; /* si no entran, que bajen a otra línea */
+    padding: 20px;
+}
+.team figure img {
+    width: 200px; /* o el tamaño que quieras */
+    height: 200px;
+    object-fit: cover;  /* mantiene la proporción */
+    
+  }
+
+.team figcaption{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    word-wrap: break-word
+}  
+h2{
+    text-align: center;
+}
