@@ -68,21 +68,14 @@
                     <input type="email" id="useremail" value="useremail">
                 </fieldset>
                 <fieldset>
-                    <legend>Si desea más información, seleccione una de las siguientes opciones</legend>
-                    <label>
-                        <input type="radio" name="proposito" value="consulta" required>
-                        Consulta general
-                      </label><br>
-                      
-                      <label>
-                        <input type="radio" name="proposito" value="reserva">
-                        Pregunta de reserva
-                      </label><br>
-                      
-                      <label>
-                        <input type="radio" name="proposito" value="sugerencia">
-                        Sugerencia de sitio web
-                      </label><br>
+                    <label for="consulta">Consulta general</label>
+                    <input type="radio" id="consulta" name="proposito" value="consulta" required><br>
+                
+                    <label for="reserva">Pregunta de reserva</label>
+                    <input type="radio" id="reserva" name="proposito" value="reserva"><br>
+                
+                    <label for="sugerencia">Sugerencia de sitio web</label>
+                    <input type="radio" id="sugerencia" name="proposito" value="sugerencia"><br>
                 </fieldset>
                 <fieldset>
                     <legend>comentarios o dudas</legend>
@@ -92,7 +85,7 @@
                     <label for="suscribe">Suscríbame al boletín mensual". </label>
                     <input type="checkbox" id="suscribe" name="suscribe">
                   </fieldset>
-                  <button type="button" >send mesage</button>
+                  <button type="submit" >send mesage</button>
 
 
 
