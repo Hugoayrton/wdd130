@@ -288,7 +288,7 @@ form {
     font-family: 'Roboto', sans-serif;
   }  
 
-  .adventures{
+.adventures{
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
